@@ -23,7 +23,7 @@ From the root of the repository folder are the following folders:
 
 ## How to set up the backend application
 
-1. clone this repository using the command `git clone https://github.com/redacreltdcom/Okorie-Chinedu-Sunday.git`
+1. Clone this repository using the command `git clone https://github.com/redacreltdcom/Okorie-Chinedu-Sunday.git`
 2. Change directory to the backend folder using the command `cd backend`
 3. Install all dependencies using the command `npm install`
 4. Set the environment variables as found **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/backend/sample.env)** **Note** you have to generate the **COINAPI_KEY** **[here](https://docs.coinapi.io/#limits-2)** by entering the your email address in the email address field provided in the site
@@ -36,8 +36,12 @@ From the root of the repository folder are the following folders:
 
 ## How to set up the frontend application
 
-1. clone this repository using the command `git clone https://github.com/redacreltdcom/Okorie-Chinedu-Sunday.git`
+1. Clone this repository using the command `git clone https://github.com/redacreltdcom/Okorie-Chinedu-Sunday.git`
 2. Change directory to the backend folder using the command `cd frontend`
 3. Install all dependencies using the command `npm install`
 4. Set the environment variables as found **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/frontend/sample.env)**
 5. Run the application using the command `npm start`
+
+# Other informations
+
+Both the frontend and the backend application are Dockerized. At the root folder of the both applications is a **Dockerfile** which contains the docker directives to create the Docker container for the applications
