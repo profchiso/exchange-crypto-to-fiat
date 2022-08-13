@@ -24,4 +24,7 @@ from the root of the repository folder are the following folders:
 ## How to set up the backend application
 
 1. clone this repository using the command `git clone https://github.com/redacreltdcom/Okorie-Chinedu-Sunday.git`
-2. chnage directory to the backend folder using the command `cd backend`
+2. change directory to the backend folder using the command `cd backend`
+3. install all dependencies using the command `npm install`
+4. set environment variables as found **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/backend/sample.env)** **Note** you have to generate the **COINAPI_KEY** **[here](https://docs.coinapi.io/#limits-2)**
+5. run the application using the command `node app.js`
