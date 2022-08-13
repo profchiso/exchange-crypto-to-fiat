@@ -24,7 +24,7 @@ const { exchangeRouter } = require("./routes/exchanges");
 
 //define routes
 app.get('/', (req, res) => {
-    res.status(200).json({ message: "Welcome to Fiat to crypto currency exchange!!", statusCode: 200 })
+    res.status(200).json({ message: "Welcome to crypto  to Fiat currency exchange!!", statusCode: 200 })
 })
 app.use("/api/v1/exchanges", exchangeRouter);
 app.use(undefinedRouter);
