@@ -46,3 +46,5 @@ From the root of the repository folder are the following folders:
 
 - Both the frontend and the backend application are Dockerized. At the root folder of the both applications is a **Dockerfile** which contains the docker directives to create the Docker container for the applications.
 - Both the frontend and the backend application use the latest version of **node** **_18.7.0_** and **npm** **_8.15.0_**
+
+- The frontend application uses the latest version of React.
