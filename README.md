@@ -44,7 +44,7 @@ From the root of the repository folder are the following folders:
 
 # Other informations
 
-- The hosted or live application can be found **[here](https://62fa2dad9c5def4324d8772c--exchange-crypto-fiat.netlify.app/)**
+- The hosted or live application can be found **[here](https://exchange-crypto-fiat.netlify.app/)**
 
 - Both the frontend and the backend application are Dockerized. At the root folder of the both applications is a **Dockerfile** which contains the docker directives to create the Docker container for the applications.
 - Both the frontend and the backend application use the latest version of **node** **_18.7.0_** and **npm** **_8.15.0_**
