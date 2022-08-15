@@ -128,7 +128,6 @@ const AppContainer = () => {
 
      webSocketClient.onmessage = function(event) {
     const data = JSON.parse(event.data);
-    console.log("from ws",data);
     setTableData(data);
 
  }
