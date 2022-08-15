@@ -31,8 +31,8 @@ From the root of the repository folder are the following folders:
 
 ## Frontend Folder Structure
 
-1. **public** : this contains the startic and some asset files used for the frontend development
-2. **src** : this contains contain the react codes and component used to build the frontend application.
+1. **public** : this contains the static and some asset files used for the frontend development
+2. **src** : this contains contain the react codes and components used to build the frontend application.
 
 ## How to set up the frontend application
 
