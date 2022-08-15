@@ -52,3 +52,5 @@ From the root of the repository folder are the following folders:
 - The frontend application uses the latest version of React.
 
 - The application working demo video can be found and downloaded **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)**
+
+- The **[coinapi.io](https://docs.coinapi.io/#get-all-current-rates-get)** API that I used has rate limits and the get live exchange rate may not work properly on the deployed application if the rate limit has been exceeded. So it is recommended to to set up the applications locally and test in a situation where the rate limit has been exceeded.
