@@ -1,8 +1,6 @@
 const express = require("express");
 const { createExchangeValidation, ExchangeBodyValidation } = require("../utils/validations");
 const exchangeRouter = express.Router();
-
-
 const {
     getAll,
     getById,

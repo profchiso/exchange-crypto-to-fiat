@@ -38,6 +38,8 @@ exports.getLiveExchangesCryptoToFiat = async(coin, fiat) => {
 
 
 }
+
+//function to get the live exchange rate of a coin to a fiat currency from coinapi
 exports.getLiveExchangesCryptoToFiatAndSave = async() => {
     try {
 

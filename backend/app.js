@@ -19,21 +19,27 @@ const connectToDB = require("./database/dbConnection");
 connectToDB() // function to connect to the database
 
 const { getLiveExchangesCryptoToFiatAndSave } = require("./crons/getLiveExchange")
+
+//brings in  routes
 const { undefinedRouter } = require("./routes/undefinedRoutes");
 const { exchangeRouter } = require("./routes/exchanges");
 
-//define routes
+//define  root routes
 app.get('/', (req, res) => {
     res.status(200).json({ message: "Welcome to crypto  to Fiat currency exchange!!", statusCode: 200 })
 })
-app.use("/api/v1/exchanges", exchangeRouter);
-app.use(undefinedRouter);
+app.use("/api/v1/exchanges", exchangeRouter); //mount the exchangeRouter on the /exchanges path
+app.use(undefinedRouter); //add undefinedRouter to handle requests to an invalid endpoint
 
+
+//cron job to fetch the live exchange rates and stream them to the frontend via websocket
 cronJob.schedule(
     `*/${process.env.MINUTES} * * * *`,
     async() => {
         console.log(`run every  ${process.env.MINUTES} minutes`);
         let data = await getLiveExchangesCryptoToFiatAndSave()
+
+        //stream data to frontend using the websocket connection
         wss.on('connection', (ws) => {
             ws.send(JSON.stringify(data));
         });
