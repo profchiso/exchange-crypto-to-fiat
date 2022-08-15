@@ -49,4 +49,4 @@ From the root of the repository folder are the following folders:
 
 - The frontend application uses the latest version of React.
 
--The application working demo video can be found and downloaded **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)**
+- The application working demo video can be found and downloaded **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)**
