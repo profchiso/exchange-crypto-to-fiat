@@ -1,5 +1,5 @@
 const axios = require('axios')
-const { Currency, Coins } = require('../utils/currency')
+const { Currency, Coins, CurrencyInterested } = require('../utils/currency')
 const Exchange = require("../database/model/Exchanges")
 
 
@@ -41,7 +41,7 @@ exports.getLiveExchangesCryptoToFiat = async(coin, fiat) => {
 exports.getLiveExchangesCryptoToFiatAndSave = async() => {
     try {
 
-        for (let i = 0; i < Currency.length; i++) {
+        for (let i = 0; i < CurrencyInterested.length; i++) {
             for (let j = 0; j < Coins.length; j++) {
                 let x = await this.getLiveExchangesCryptoToFiat(Coins[j].symbol, Currency[i])
                 let exchangeObj = {

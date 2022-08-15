@@ -1,4 +1,6 @@
 exports.Currency = ["EUR", "USD", "GBP"]
+exports.CurrencyInterested = ["USD"]
+
 exports.Coins = [{
         "name": "Bitcoin",
         "symbol": "BTC"
