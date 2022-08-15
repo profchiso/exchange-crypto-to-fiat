@@ -48,3 +48,5 @@ From the root of the repository folder are the following folders:
 - Both the frontend and the backend application use the latest version of **node** **_18.7.0_** and **npm** **_8.15.0_**
 
 - The frontend application uses the latest version of React.
+
+-The application working demo video can be found and downloaded **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)**
