@@ -23,7 +23,7 @@ exports.getAll = async(req, res) => {
         );
 
         let parsedQuery = JSON.parse(queryToString);
-        //add filter date to query
+
         if (req.query.fromDate && req.query.toDate) {
             let fDate = req.query.fromDate.split("/")
             let tDate = req.query.toDate.split("/")
