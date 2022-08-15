@@ -132,6 +132,9 @@ const AppContainer = () => {
     setTableData(data);
 
  }
+ webSocketClient.onopen=()=>{
+  console.log(" websocket connected successfully");
+ }
 
   return (
     <>
