@@ -13,7 +13,7 @@ From the root of the repository folder are the following folders:
 1. **[backend](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/tree/main/backend)**
 2. **[frontend](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/tree/main/frontend)**
 
-## Backend Structure
+## Backend Folder Structure
 
 1. **controllers** : this contains the business logic for the application.
 2. **crons** : this contains the logics ran at intervals of **MINUTES** as specified **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/backend/sample.env)**.
@@ -29,7 +29,7 @@ From the root of the repository folder are the following folders:
 4. Set the environment variables as found **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/backend/sample.env)** **Note** you have to generate the **COINAPI_KEY** **[here](https://docs.coinapi.io/#limits-2)** by entering your email address in the email address field provided in the site
 5. Run the application using the command `node app.js`
 
-## Frontend Structure
+## Frontend Folder Structure
 
 1. **public** : this contains the startic and some asset files used for the frontend development
 2. **src** : this contains contain the react codes and component used to build the frontend application.
