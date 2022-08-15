@@ -27,7 +27,7 @@ From the root of the repository folder are the following folders:
 2. Change directory to the backend folder using the command `cd backend`
 3. Install all dependencies using the command `npm install`
 4. Set the environment variables as found **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/backend/sample.env)** **Note** you have to generate the **COINAPI_KEY** **[here](https://docs.coinapi.io/#limits-2)** by entering your email address in the email address field provided in the site
-5. Run the application using the command `node app.js`
+5. Run the application using the command `node app.js` or `npm start`
 
 ## Frontend Folder Structure
 
