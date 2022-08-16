@@ -53,4 +53,6 @@ From the root of the repository folder are the following folders:
 
 - The application working demo video can be found and downloaded **[here](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)**
 
+- There are two demo videos available **[demo1](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo1.mp4)** and **[demo2](https://github.com/redacreltdcom/Okorie-Chinedu-Sunday/blob/main/demo.mp4)** Demo1 was when my **COINAPI_KEY** has exceeded the maximum allowed request to the coinapi.io api so the amount was not populated after selecting the coin, coin amount and fiat . while the **demo2** was when my **COINAPI_KEY** was still active. You will have a seemless demo if you setup the application locall and run it using a newly generated **COINAPI_KEY** instead.
+
 - The **[coinapi.io](https://docs.coinapi.io/#get-all-current-rates-get)** API that I used has rate limits and the get live exchange rate may not work properly on the deployed application if the rate limit has been exceeded. So it is recommended to to set up the applications locally and test in a situation where the rate limit has been exceeded.
