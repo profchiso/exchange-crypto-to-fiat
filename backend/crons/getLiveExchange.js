@@ -46,7 +46,7 @@ exports.getLiveExchangesCryptoToFiatAndSave = async() => {
                 let x = await this.getLiveExchangesCryptoToFiat(Coins[j].symbol, Currency[i])
                 let exchangeObj = {
                     currencyFrom: Coins[j].name,
-                    currencyTo: Currency[i],
+                    currencyTo: CurrencyInterested[i],
                     amount1: 1,
                     amount2: x.rate,
                     type: "Live Price",

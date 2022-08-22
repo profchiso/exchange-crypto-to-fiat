@@ -1,4 +1,4 @@
-exports.Currency = ["EUR", "USD", "GBP"]
+exports.Currency = ["USD", "EUR", "GBP"]
 exports.CurrencyInterested = ["USD"]
 
 exports.Coins = [{
